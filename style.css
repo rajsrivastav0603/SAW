@@ -7,16 +7,34 @@
 }
 
 .container{
-  height: 100%;
+  height: 100vh;
   width: 100%;
   margin: 0%;
   padding: 0%;
+  position: relative;
+  background-color: #3f3f3f;
 }
 
+.container-img{
+  width: 30%;
+  height: 100% !important;
+  margin: auto;
+}
+@media screen and (max-width:786px) {
+  .container-img{
+    width: 60%;
+  }
+}
+@media screen and (max-width:486px) {
+  .container-img{
+    width: 80%;
+  }
+}
 .wrapper{
+  top: 0;
   height: 100%;
-  width: 300px;
-  position: relative;
+  width: 100%;
+  position: absolute;
 }
 .wrapper .menu-btn{
   position: absolute;
