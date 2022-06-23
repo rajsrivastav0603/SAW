@@ -25,7 +25,7 @@
 
   <body>
     <div class="container-error">
-      <img src="error.jpeg" alt="Error 404" class="container-img" />
+      <img src="./Assets/error.jpeg" alt="Error 404" class="container-img" />
       <div class="wrapper">
         <input type="checkbox" id="btn" hidden />
         <label for="btn" class="menu-btn">
@@ -67,6 +67,105 @@
         <li></li>
       </ul>
     </div>
-    <div></div>
+    <div class="leaderboard-container">
+      <div class="heading"><h1></h1>Shinobi Ranking System</h1></div>
+      <div class="shinobi-rankings">
+        <button class="rank1 tier" onclick="genin_show()">Genin</button>
+        <button class="rank2 tier" onclick="chunin_show()">Chunin</button>
+        <button class="rank3 tier" onclick="jonin_show()">Jonin</button>
+      </div>
+      <div class="img" id="img">
+        <img src="./Assets/Kakashi.png" alt="Kakashi">
+        <div class="text">Click on the rank to know yours!</div>
+      </div>
+      <div class="leaderboard" id="genin">
+        <div class="leaderboard-heading">Genin</div>
+        <div class="leaderboard-table">
+          <l1 class="rank">
+            <span>
+              Naruto
+            </span>
+            <span>
+              #1
+            </span>
+          </l1>
+          <l1 class="rank">
+              <span>
+                Boruto
+              </span>
+              <span>
+                #2
+              </span>
+          </l1>
+          <l1 class="rank">
+            <span>
+              Sasuke
+            </span>
+            <span>
+              #3
+            </span>
+          </l1>
+        </div>
+      </div>
+      <div class="leaderboard" id="chunin">
+        <div class="leaderboard-heading">Chunin</div>
+        <div class="leaderboard-table">
+          <l1 class="rank">
+            <span>
+              Shikamaru
+            </span>
+            <span>
+              #1
+            </span>
+          </l1>
+          <l1 class="rank">
+              <span>
+                Ino
+              </span>
+              <span>
+                #2
+              </span>
+          </l1>
+          <l1 class="rank">
+            <span>
+              Choji
+            </span>
+            <span>
+              #3
+            </span>
+          </l1>
+        </div>
+      </div>
+      <div class="leaderboard" id="jonin">
+        <div class="leaderboard-heading">Jonin</div>
+        <div class="leaderboard-table">
+          <l1 class="rank">
+            <span>
+              Kakashi
+            </span>
+            <span>
+              #1
+            </span>
+          </l1>
+          <l1 class="rank">
+              <span>
+               Asuma
+              </span>
+              <span>
+                #2
+              </span>
+          </l1>
+          <l1 class="rank">
+            <span>
+              Neji
+            </span>
+            <span>
+              #3
+            </span>
+          </l1>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
   </body>
 </html>
