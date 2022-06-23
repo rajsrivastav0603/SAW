@@ -188,7 +188,7 @@
   height: 100vh;
   position: relative;
   background: rgb(32,32,32);
-  background: linear-gradient(180deg, rgba(32,32,32,1) 70%, rgba(246, 246, 246, 0.201) 100%);
+  background: linear-gradient(180deg,  rgba(13, 13, 13, 0.89) 44% , rgba(0,0,0) 100%);
   color: #f6f6f6;
 }
 .leaderboard-container .heading{
